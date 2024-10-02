@@ -1,4 +1,3 @@
-import { UserButton } from "@clerk/nextjs";
 
 
 const DashBoardPage = () => {
@@ -6,7 +5,6 @@ const DashBoardPage = () => {
     <>
       <div>
         <p>Dashboard Page (Protected)</p>
-        <UserButton />
       </div>
     </>
   )
