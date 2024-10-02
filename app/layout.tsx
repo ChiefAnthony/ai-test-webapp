@@ -13,7 +13,6 @@ const geistMono = localFont({
   variable: '--font-geist-mono',
   weight: '100 900',
 });
-
 export const metadata: Metadata = {
   title: 'Genius',
   description: 'AI Platform',
