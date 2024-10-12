@@ -59,7 +59,7 @@ const DashBoardPage = () => {
             Chat with the smartest AI - Experience the power of AI
           </p>
         </div>
-        <div className="px4 md:px-20 lg:px-32 space-y-4">
+        <div className="px-4 md:px-20 lg:px-32 space-y-4">
           {tools.map((tool) => (
             <Card
               onClick={() => router.push(tool.href)}
